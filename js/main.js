@@ -109,8 +109,7 @@ function initializeNavigation() {
 
 async function loadSkills() {
     try {
-        const response = await fetch('data/skills.json');
-        const data = await response.json();
+        const data = window.portfolioData.skills;
         const container = document.getElementById('skills-container');
 
         data.categories.forEach((category, index) => {
@@ -171,8 +170,7 @@ function observeSkillBars() {
 
 async function loadProjects() {
     try {
-        const response = await fetch('data/projects.json');
-        const projects = await response.json();
+        const projects = window.portfolioData.projects;
         const container = document.getElementById('projects-container');
 
         // Sort by display order
@@ -257,8 +255,7 @@ function initializeProjectFilters() {
 
 async function loadExperience() {
     try {
-        const response = await fetch('data/cv-data.json');
-        const data = await response.json();
+        const data = window.portfolioData.cv;
         const container = document.getElementById('experience-container');
 
         // Combine experience and education
@@ -456,8 +453,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 async function loadCertifications() {
     try {
-        const response = await fetch('data/cv-data.json');
-        const data = await response.json();
+        const data = window.portfolioData.cv;
         const container = document.getElementById('certifications-container');
         if (!container || !data.certifications) return;
 
