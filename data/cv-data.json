@@ -1,0 +1,115 @@
+{
+    "personalInfo": {
+        "name": "Aneeq Hussain",
+        "title": "AI Engineer & Machine Learning Specialist",
+        "tagline": "Building intelligent systems that solve real-world problems",
+        "email": "aneeqhussain@gmail.com",
+        "github": "https://github.com/aneeqhussain",
+        "linkedin": "https://linkedin.com/in/aneeq-hussain",
+        "location": "Islamabad, Pakistan"
+    },
+    "about": {
+        "summary": "AI Engineer and ML Specialist with hands-on experience building scalable AI systems for real-world applications. Currently an AI Intern at the National Intelligence Fusion and Threat Assessment Center (NIFTAC) via itsolera, focused on intelligent security solutions. Passionate about Computer Vision, Deep Learning, and deploying production-ready ML models.",
+        "highlights": [
+            "AI Intern at NIFTAC — building intelligent security & threat assessment solutions",
+            "Developed Chlorophyll Guardian, an AI-powered plant disease detection system (Final Year Project)",
+            "Expert in Computer Vision, Deep Learning, and model deployment (Docker, FastAPI, GPU environments)",
+            "Built 7+ open-source projects including CVSense, Loan Insight AI, and Attrition Predictor",
+            "Strong background in Python, TensorFlow, PyTorch, and end-to-end ML pipelines"
+        ]
+    },
+    "education": [
+        {
+            "degree": "Bachelor of Science in Artificial Intelligence",
+            "institution": "COMSATS University Islamabad",
+            "location": "Islamabad, Pakistan",
+            "startDate": "2021",
+            "endDate": "2025",
+            "gpa": "3.2/4.0",
+            "highlights": [
+                "Final Year Project: Chlorophyll Guardian — AI-powered plant disease detection using Computer Vision",
+                "Relevant Coursework: Machine Learning, Deep Learning, Computer Vision, NLP, Data Science, Algorithms",
+                "Built multiple academic projects: PandemicInsights, EarthTempAnalysis, Sentiment Analysis"
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "title": "AI Intern",
+            "company": "NIFTAC (via itsolera)",
+            "location": "Islamabad, Pakistan (Remote)",
+            "startDate": "2025",
+            "endDate": "",
+            "current": true,
+            "description": "Building scalable AI systems for national intelligence and security applications at the National Intelligence Fusion and Threat Assessment Center.",
+            "achievements": [
+                "Developing Computer Vision pipelines for real-world threat assessment applications",
+                "Working with GPU environments and model deployment infrastructure",
+                "Building and optimizing deep learning models for security-focused use cases",
+                "Collaborating on scalable AI system architecture for intelligence applications",
+                "Implementing production-ready APIs and Docker-based deployment workflows"
+            ]
+        },
+        {
+            "title": "AI Research & Development — Final Year Project",
+            "company": "COMSATS University Islamabad",
+            "location": "Islamabad, Pakistan",
+            "startDate": "2024",
+            "endDate": "2025",
+            "current": false,
+            "description": "Developed Chlorophyll Guardian, an AI-powered plant disease detection and health monitoring system for precision agriculture.",
+            "achievements": [
+                "Built deep learning CNN models for multi-class plant disease classification with high accuracy",
+                "Processed and augmented agricultural image datasets for robust model training",
+                "Implemented computer vision techniques for real-time chlorophyll level analysis",
+                "Published the project on Kaggle for open community access",
+                "Designed a user-friendly interface for real-time disease detection and treatment recommendations"
+            ]
+        },
+        {
+            "title": "ML & Data Science Projects",
+            "company": "Independent / Academic",
+            "location": "Islamabad, Pakistan",
+            "startDate": "2023",
+            "endDate": "2024",
+            "current": false,
+            "description": "Designed and developed multiple end-to-end ML applications across diverse domains — HR analytics, finance, NLP, and climate science.",
+            "achievements": [
+                "Built CVSense: an intelligent resume screening ML pipeline with Google Drive integration",
+                "Developed Loan Insight AI: full-stack loan prediction with FastAPI backend + premium glassmorphism UI",
+                "Created Employee Attrition Predictor: Random Forest + Gradient Boosting HR analytics dashboard",
+                "Implemented Scholarship Email Automation: AI-assisted email drafting and batch dispatch platform",
+                "Performed global pandemic and climate temperature analysis with interactive visualizations"
+            ]
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Machine Learning Specialization",
+            "issuer": "Coursera / Stanford University",
+            "date": "2023",
+            "credentialUrl": ""
+        },
+        {
+            "name": "Deep Learning Specialization",
+            "issuer": "Coursera / deeplearning.ai",
+            "date": "2023",
+            "credentialUrl": ""
+        },
+        {
+            "name": "Python for Data Science",
+            "issuer": "Coursera",
+            "date": "2022",
+            "credentialUrl": ""
+        }
+    ],
+    "publications": [
+        {
+            "title": "Chlorophyll Guardian: AI-Powered Plant Health Monitoring",
+            "platform": "Kaggle",
+            "date": "2025",
+            "url": "https://www.kaggle.com/code/rukhsarbakhtaj/chlorophyll-guardian",
+            "description": "Comprehensive notebook demonstrating plant disease detection using deep learning and computer vision"
+        }
+    ]
+}

@@ -1,0 +1,169 @@
+{
+    "categories": [
+        {
+            "name": "AI & Machine Learning",
+            "icon": "🤖",
+            "skills": [
+                {
+                    "name": "TensorFlow",
+                    "level": 85,
+                    "icon": "assets/icons/tensorflow.svg"
+                },
+                {
+                    "name": "PyTorch",
+                    "level": 80,
+                    "icon": "assets/icons/pytorch.svg"
+                },
+                {
+                    "name": "Scikit-learn",
+                    "level": 90,
+                    "icon": "assets/icons/sklearn.svg"
+                },
+                {
+                    "name": "Keras",
+                    "level": 85,
+                    "icon": "assets/icons/keras.svg"
+                },
+                {
+                    "name": "Deep Learning",
+                    "level": 80,
+                    "icon": "assets/icons/deep-learning.svg"
+                },
+                {
+                    "name": "Computer Vision",
+                    "level": 85,
+                    "icon": "assets/icons/cv.svg"
+                },
+                {
+                    "name": "NLP",
+                    "level": 75,
+                    "icon": "assets/icons/nlp.svg"
+                }
+            ]
+        },
+        {
+            "name": "Programming Languages",
+            "icon": "💻",
+            "skills": [
+                {
+                    "name": "Python",
+                    "level": 95,
+                    "icon": "assets/icons/python.svg"
+                },
+                {
+                    "name": "JavaScript",
+                    "level": 80,
+                    "icon": "assets/icons/javascript.svg"
+                },
+                {
+                    "name": "SQL",
+                    "level": 75,
+                    "icon": "assets/icons/sql.svg"
+                },
+                {
+                    "name": "HTML/CSS",
+                    "level": 85,
+                    "icon": "assets/icons/html.svg"
+                }
+            ]
+        },
+        {
+            "name": "Data Science & Analytics",
+            "icon": "📊",
+            "skills": [
+                {
+                    "name": "Pandas",
+                    "level": 90,
+                    "icon": "assets/icons/pandas.svg"
+                },
+                {
+                    "name": "NumPy",
+                    "level": 90,
+                    "icon": "assets/icons/numpy.svg"
+                },
+                {
+                    "name": "Matplotlib",
+                    "level": 85,
+                    "icon": "assets/icons/matplotlib.svg"
+                },
+                {
+                    "name": "Seaborn",
+                    "level": 80,
+                    "icon": "assets/icons/seaborn.svg"
+                },
+                {
+                    "name": "Data Visualization",
+                    "level": 85,
+                    "icon": "assets/icons/dataviz.svg"
+                },
+                {
+                    "name": "Statistical Analysis",
+                    "level": 80,
+                    "icon": "assets/icons/stats.svg"
+                }
+            ]
+        },
+        {
+            "name": "Tools & Frameworks",
+            "icon": "🛠️",
+            "skills": [
+                {
+                    "name": "Git & GitHub",
+                    "level": 85,
+                    "icon": "assets/icons/git.svg"
+                },
+                {
+                    "name": "Jupyter Notebook",
+                    "level": 90,
+                    "icon": "assets/icons/jupyter.svg"
+                },
+                {
+                    "name": "FastAPI",
+                    "level": 75,
+                    "icon": "assets/icons/fastapi.svg"
+                },
+                {
+                    "name": "OpenCV",
+                    "level": 80,
+                    "icon": "assets/icons/opencv.svg"
+                },
+                {
+                    "name": "Docker",
+                    "level": 70,
+                    "icon": "assets/icons/docker.svg"
+                },
+                {
+                    "name": "VS Code",
+                    "level": 90,
+                    "icon": "assets/icons/vscode.svg"
+                }
+            ]
+        },
+        {
+            "name": "Databases & Cloud",
+            "icon": "☁️",
+            "skills": [
+                {
+                    "name": "Supabase",
+                    "level": 75,
+                    "icon": "assets/icons/supabase.svg"
+                },
+                {
+                    "name": "PostgreSQL",
+                    "level": 70,
+                    "icon": "assets/icons/postgresql.svg"
+                },
+                {
+                    "name": "MongoDB",
+                    "level": 65,
+                    "icon": "assets/icons/mongodb.svg"
+                },
+                {
+                    "name": "Vercel",
+                    "level": 80,
+                    "icon": "assets/icons/vercel.svg"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Meta Tags -->
+  <title>Aneeq Hussain | AI Graduate & Machine Learning Engineer</title>
+  <meta name="description"
+    content="AI Graduate specializing in Machine Learning, Deep Learning, and Computer Vision. Explore my projects including Chlorophyll Guardian, PandemicInsights, and more.">
+  <meta name="keywords"
+    content="AI, Machine Learning, Deep Learning, Computer Vision, Python, TensorFlow, PyTorch, Data Science">
+  <meta name="author" content="Aneeq Hussain">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Aneeq Hussain | AI Graduate & Machine Learning Engineer">
+  <meta property="og:description"
+    content="AI Graduate specializing in Machine Learning, Deep Learning, and Computer Vision.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aneeqhussain.vercel.app">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Aneeq Hussain | AI Graduate & Machine Learning Engineer">
+  <meta name="twitter:description"
+    content="AI Graduate specializing in Machine Learning, Deep Learning, and Computer Vision.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-container">
+      <a href="#home" class="navbar-logo">Aneeq Hussain</a>
+
+      <ul class="navbar-menu" id="navbar-menu">
+        <li><a href="#home" class="navbar-link active">Home</a></li>
+        <li><a href="#about" class="navbar-link">About</a></li>
+        <li><a href="#skills" class="navbar-link">Skills</a></li>
+        <li><a href="#projects" class="navbar-link">Projects</a></li>
+        <li><a href="#experience" class="navbar-link">Experience</a></li>
+        <li><a href="#contact" class="navbar-link">Contact</a></li>
+      </ul>
+
+      <div class="flex items-center gap-4">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+          <i class="fas fa-moon" id="theme-icon"></i>
+        </button>
+
+        <div class="navbar-toggle" id="navbar-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div id="particles-js" class="hero-background"></div>
+
+    <div class="hero-content">
+      <p class="hero-greeting">👋 Hello, I'm</p>
+      <h1 class="hero-title">
+        <span class="hero-title-gradient">Aneeq Hussain</span>
+      </h1>
+      <p class="hero-subtitle">
+        <span id="typed-static">AI Graduate | </span><span id="typed-text" class="typed-text"></span><span
+          class="typed-cursor">|</span><br>
+        Building intelligent systems that solve real-world problems
+      </p>
+
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary btn-lg">
+          <i class="fas fa-rocket"></i>
+          View My Work
+        </a>
+        <a href="#contact" class="btn btn-outline btn-lg">
+          <i class="fas fa-envelope"></i>
+          Get In Touch
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <div class="hero-scroll-icon"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about-container">
+        <div class="about-image-wrapper reveal">
+          <div class="about-image-bg"></div>
+          <img src="assets/images/profile.jpg" alt="Aneeq Hussain" class="about-image">
+        </div>
+
+        <div class="about-content reveal">
+          <h2>About Me</h2>
+          <p class="about-text">
+            AI Engineer and ML Specialist with hands-on experience building scalable AI systems for real-world
+            applications. Currently an <strong>AI Intern at NIFTAC</strong> (via itsolera), focused on intelligent
+            security and threat assessment solutions. Passionate about Computer Vision, Deep Learning, and
+            deploying production-ready ML models.
+          </p>
+
+          <ul class="about-highlights">
+            <li>AI Intern at NIFTAC — building intelligent security &amp; threat assessment solutions</li>
+            <li>Developed Chlorophyll Guardian, an AI-powered plant disease detection system (FYP)</li>
+            <li>Expert in Computer Vision, Deep Learning, and model deployment (Docker, FastAPI)</li>
+            <li>Built 7+ open-source projects: CVSense, Loan Insight AI, Attrition Predictor</li>
+            <li>Strong background in Python, TensorFlow, PyTorch, and end-to-end ML pipelines</li>
+          </ul>
+
+          <div class="flex gap-4">
+            <a href="CV_Aneeq_Hussain.pdf" download class="btn btn-primary">
+              <i class="fas fa-download"></i>
+              Download CV
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fas fa-user"></i>
+              Contact Me
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Skills & Expertise</h2>
+        <p class="section-subtitle">
+          Technologies and tools I use to bring ideas to life
+        </p>
+      </div>
+
+      <div class="skills-grid" id="skills-container">
+        <!-- Skills will be dynamically loaded here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects section-lg" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">
+          A showcase of my work in AI, Machine Learning, and Data Science
+        </p>
+      </div>
+
+      <div class="projects-filter reveal">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="Final Year Project">FYP</button>
+        <button class="filter-btn" data-filter="Machine Learning">Machine Learning</button>
+        <button class="filter-btn" data-filter="Full Stack">Full Stack</button>
+        <button class="filter-btn" data-filter="Data Analysis">Data Analysis</button>
+        <button class="filter-btn" data-filter="Climate Science">Climate</button>
+      </div>
+
+      <div class="projects-grid" id="projects-container">
+        <!-- Projects will be dynamically loaded here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="experience section" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Experience & Education</h2>
+        <p class="section-subtitle">
+          My journey in AI and Machine Learning
+        </p>
+      </div>
+
+      <div class="experience-timeline" id="experience-container">
+        <!-- Experience will be dynamically loaded here -->
+      </div>
+
+      <!-- Certifications -->
+      <div class="certifications-section reveal">
+        <h3 class="certifications-title">📜 Certifications</h3>
+        <div class="certifications-grid" id="certifications-container">
+          <!-- Certifications dynamically loaded -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact section-lg" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">
+          Let's discuss how we can work together
+        </p>
+      </div>
+
+      <div class="contact-container">
+        <div class="contact-info reveal">
+          <a href="mailto:aneeqhussain@gmail.com" class="contact-info-item contact-info-link">
+            <i class="fas fa-envelope contact-info-icon"></i>
+            <div>
+              <h4>Email</h4>
+              <p>aneeqhussain@gmail.com</p>
+            </div>
+          </a>
+
+          <a href="https://github.com/aneeqhussain" target="_blank" class="contact-info-item contact-info-link">
+            <i class="fab fa-github contact-info-icon"></i>
+            <div>
+              <h4>GitHub</h4>
+              <p>github.com/aneeqhussain</p>
+            </div>
+          </a>
+
+          <a href="https://linkedin.com/in/aneeq-hussain" target="_blank" class="contact-info-item contact-info-link">
+            <i class="fab fa-linkedin contact-info-icon"></i>
+            <div>
+              <h4>LinkedIn</h4>
+              <p>linkedin.com/in/aneeq-hussain</p>
+            </div>
+          </a>
+
+          <a href="https://wa.me/923489735556" target="_blank" class="contact-info-item contact-info-link">
+            <i class="fab fa-whatsapp contact-info-icon" style="color: #25D366;"></i>
+            <div>
+              <h4>WhatsApp / Phone</h4>
+              <p>+92 348 9735556</p>
+            </div>
+          </a>
+        </div>
+
+        <form class="contact-form reveal" id="contact-form">
+          <div id="form-message"></div>
+
+          <div class="form-group">
+            <label for="name" class="form-label">Name *</label>
+            <input type="text" id="name" name="name" class="form-input" required>
+            <div class="form-error" id="name-error"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="form-label">Email *</label>
+            <input type="email" id="email" name="email" class="form-input" required>
+            <div class="form-error" id="email-error"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="subject" class="form-label">Subject</label>
+            <input type="text" id="subject" name="subject" class="form-input">
+          </div>
+
+          <div class="form-group">
+            <label for="message" class="form-label">Message *</label>
+            <textarea id="message" name="message" class="form-textarea" required></textarea>
+            <div class="form-error" id="message-error"></div>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg" id="submit-btn">
+            <i class="fas fa-paper-plane"></i>
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Aneeq Hussain</h3>
+          <p>AI Graduate passionate about creating innovative solutions through machine learning and data science.</p>
+
+          <div class="social-links">
+            <a href="https://github.com/aneeqhussain" target="_blank" class="social-link" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/aneeq-hussain" target="_blank" class="social-link" aria-label="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://kaggle.com/aneeqhussain" target="_blank" class="social-link" aria-label="Kaggle">
+              <i class="fab fa-kaggle"></i>
+            </a>
+            <a href="mailto:aneeqhussain@gmail.com" class="social-link" aria-label="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Projects</h3>
+          <ul class="footer-links">
+            <li><a href="https://www.kaggle.com/code/rukhsarbakhtaj/chlorophyll-guardian" target="_blank">Chlorophyll
+                Guardian</a></li>
+            <li><a href="https://github.com/aneeqhussain/PandemicInsights" target="_blank">PandemicInsights</a></li>
+            <li><a href="https://github.com/aneeqhussain/EarthTempAnalysis" target="_blank">EarthTempAnalysis</a></li>
+            <li><a href="https://github.com/aneeqhussain/sentiment-analysis" target="_blank">Sentiment Analysis</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Aneeq Hussain. All rights reserved. Built with ❤️ and AI</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

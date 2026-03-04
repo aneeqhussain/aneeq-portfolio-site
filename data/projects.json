@@ -1,0 +1,220 @@
+[
+    {
+        "id": "chlorophyll-guardian",
+        "title": "🌿 Chlorophyll Guardian",
+        "category": "Final Year Project",
+        "description": "An AI-powered plant health monitoring system that uses computer vision and deep learning to detect and diagnose plant diseases. Analyzes chlorophyll levels and leaf patterns to provide early detection of health issues, helping farmers maintain healthy crops.",
+        "longDescription": "Chlorophyll Guardian is a comprehensive plant health monitoring solution developed as my final year project. It leverages deep learning models trained on agricultural datasets to identify various plant diseases with high accuracy. The system provides real-time analysis, disease classification, and treatment recommendations, making precision agriculture accessible to farmers of all scales.",
+        "technologies": [
+            "Python",
+            "TensorFlow",
+            "Keras",
+            "OpenCV",
+            "Computer Vision",
+            "Deep Learning",
+            "Image Processing"
+        ],
+        "features": [
+            "Real-time plant disease detection",
+            "Chlorophyll level analysis",
+            "Multi-class disease classification",
+            "Treatment recommendations",
+            "High accuracy CNN model"
+        ],
+        "githubUrl": "",
+        "kaggleUrl": "https://www.kaggle.com/code/rukhsarbakhtaj/chlorophyll-guardian",
+        "demoUrl": "",
+        "imageUrl": "assets/images/projects/chlorophyll-guardian.jpg",
+        "featured": true,
+        "displayOrder": 1,
+        "status": "Completed",
+        "year": "2025"
+    },
+    {
+        "id": "attrition-system",
+        "title": "📉 Employee Attrition Predictor",
+        "category": "Machine Learning",
+        "description": "A full-stack ML application designed to identify and visualize employee turnover risks. Features a modular Python backend for data simulation and model training (Random Forest, Gradient Boosting), paired with an interactive dashboard for real-time HR risk scoring.",
+        "longDescription": "Employee Attrition Prediction System is a full-stack ML application that helps HR teams proactively identify employees at risk of leaving. It combines advanced ML models (Random Forest, Gradient Boosting) with a clean interactive dashboard for real-time risk scoring, visual analytics, and actionable insights to improve employee retention.",
+        "technologies": [
+            "Python",
+            "Scikit-learn",
+            "Random Forest",
+            "Gradient Boosting",
+            "Pandas",
+            "NumPy",
+            "Data Visualization",
+            "FastAPI"
+        ],
+        "features": [
+            "Real-time attrition risk scoring",
+            "Interactive HR analytics dashboard",
+            "Multi-model ensemble (RF + GBM)",
+            "Data simulation pipeline",
+            "Feature importance visualization"
+        ],
+        "githubUrl": "https://github.com/aneeqhussain/attrition-system",
+        "kaggleUrl": "",
+        "demoUrl": "",
+        "imageUrl": "assets/images/projects/attrition-system.jpg",
+        "featured": true,
+        "displayOrder": 2,
+        "status": "Completed",
+        "year": "2025"
+    },
+    {
+        "id": "loan-insight-ai",
+        "title": "💳 Loan Insight AI",
+        "category": "Machine Learning",
+        "description": "Advanced ML-powered Loan Approval Prediction System featuring a premium Glassmorphism UI, FastAPI backend, and high-accuracy financial assessment models. Predicts loan eligibility based on financial and demographic features.",
+        "longDescription": "Loan Insight AI is a production-grade loan approval prediction system that combines state-of-the-art machine learning with a polished user interface. The FastAPI backend serves a high-accuracy model trained on financial data, while the premium glassmorphism frontend provides an intuitive loan application experience with instant AI-driven decisions.",
+        "technologies": [
+            "Python",
+            "FastAPI",
+            "Scikit-learn",
+            "Machine Learning",
+            "HTML/CSS/JS",
+            "Glassmorphism UI",
+            "Pandas",
+            "NumPy"
+        ],
+        "features": [
+            "High-accuracy ML loan predictions",
+            "Premium Glassmorphism UI",
+            "FastAPI REST backend",
+            "Real-time eligibility assessment",
+            "Feature engineering pipeline"
+        ],
+        "githubUrl": "https://github.com/aneeqhussain/loan-insight-ai",
+        "kaggleUrl": "",
+        "demoUrl": "",
+        "imageUrl": "assets/images/projects/loan-insight-ai.jpg",
+        "featured": true,
+        "displayOrder": 3,
+        "status": "Completed",
+        "year": "2025"
+    },
+    {
+        "id": "cvsense",
+        "title": "📄 CVSense",
+        "category": "Machine Learning",
+        "description": "An Intelligent Resume Screening ML Pipeline that automates the candidate evaluation process. Supports Google Forms job applications, direct CV uploads, and a hybrid keyword + TF-IDF matching algorithm to rank candidates accurately.",
+        "longDescription": "CVSense is an intelligent resume screening system that automates the tedious process of candidate shortlisting. It supports Google Drive integration for Google Forms job applications and direct CV uploads, then applies a powerful hybrid matching algorithm combining keyword extraction (70%), TF-IDF similarity (30%), and phrase/synonym matching to produce accurate candidate rankings.",
+        "technologies": [
+            "Python",
+            "NLTK",
+            "TF-IDF",
+            "Scikit-learn",
+            "Google Drive API",
+            "NLP",
+            "PDF Extraction"
+        ],
+        "features": [
+            "Google Drive / Forms integration",
+            "Hybrid TF-IDF + keyword matching",
+            "Synonym & abbreviation support",
+            "Interactive results dashboard",
+            "Batch CV processing"
+        ],
+        "githubUrl": "https://github.com/aneeqhussain/CVSense",
+        "kaggleUrl": "",
+        "demoUrl": "",
+        "imageUrl": "assets/images/projects/cvsense.jpg",
+        "featured": false,
+        "displayOrder": 4,
+        "status": "Completed",
+        "year": "2024"
+    },
+    {
+        "id": "scholarship-email-automation",
+        "title": "🎓 Scholarship Email Automation",
+        "category": "Full Stack",
+        "description": "A comprehensive email automation platform for scholarship applications. Features include smart professor search, personalized email drafting, intelligent scheduling, and batch dispatch capabilities for automating the entire scholarship outreach process.",
+        "longDescription": "Scholarship Email Automation is a full-featured platform that streamlines the scholarship application process by automating email outreach to professors and universities. It includes an AI-assisted email drafting engine, professor database search, smart scheduling, and batch dispatch, making it significantly easier to apply for international scholarships.",
+        "technologies": [
+            "Python",
+            "FastAPI",
+            "HTML/CSS/JS",
+            "SMTP",
+            "Email Automation",
+            "NLP",
+            "Supabase"
+        ],
+        "features": [
+            "Smart professor search & database",
+            "AI-powered personalized email drafting",
+            "Smart scheduling & batch dispatch",
+            "Email template management",
+            "Application tracking dashboard"
+        ],
+        "githubUrl": "https://github.com/aneeqhussain/scholarship-email-automation",
+        "kaggleUrl": "",
+        "demoUrl": "",
+        "imageUrl": "assets/images/projects/scholarship-email.jpg",
+        "featured": false,
+        "displayOrder": 5,
+        "status": "Completed",
+        "year": "2024"
+    },
+    {
+        "id": "pandemic-insights",
+        "title": "🦠 PandemicInsights",
+        "category": "Data Analysis",
+        "description": "A comprehensive data analysis and visualization project examining pandemic trends, patterns, and insights. Utilizes statistical analysis and machine learning to understand disease spread patterns and predict future trends.",
+        "longDescription": "PandemicInsights is a data-driven project that analyzes global pandemic data to extract meaningful insights. The project combines statistical analysis, time series forecasting, and interactive visualizations to help understand the dynamics of disease spread, effectiveness of interventions, and regional variations in pandemic impact.",
+        "technologies": [
+            "Python",
+            "Pandas",
+            "NumPy",
+            "Matplotlib",
+            "Seaborn",
+            "Scikit-learn",
+            "Statistical Analysis"
+        ],
+        "features": [
+            "Interactive data visualizations",
+            "Trend analysis and forecasting",
+            "Regional comparison tools",
+            "Statistical modeling",
+            "Time series analysis"
+        ],
+        "githubUrl": "https://github.com/aneeqhussain/PandemicInsights",
+        "kaggleUrl": "",
+        "demoUrl": "",
+        "imageUrl": "assets/images/projects/pandemic-insights.jpg",
+        "featured": false,
+        "displayOrder": 6,
+        "status": "Completed",
+        "year": "2024"
+    },
+    {
+        "id": "earth-temp-analysis",
+        "title": "🌍 EarthTempAnalysis",
+        "category": "Climate Science",
+        "description": "Climate data analysis project focused on global temperature trends and patterns. Analyzes historical temperature data to identify climate change patterns and predict future temperature variations using machine learning models.",
+        "longDescription": "EarthTempAnalysis examines decades of global temperature data to understand climate change trends. The project employs advanced data analysis techniques and machine learning algorithms to identify patterns, anomalies, and long-term trends in Earth's temperature records, providing insights into climate change impacts.",
+        "technologies": [
+            "Python",
+            "Pandas",
+            "NumPy",
+            "Matplotlib",
+            "Machine Learning",
+            "Time Series Analysis"
+        ],
+        "features": [
+            "Historical temperature analysis",
+            "Climate trend visualization",
+            "Predictive modeling",
+            "Anomaly detection",
+            "Regional temperature comparison"
+        ],
+        "githubUrl": "https://github.com/aneeqhussain/EarthTempAnalysis",
+        "kaggleUrl": "",
+        "demoUrl": "",
+        "imageUrl": "assets/images/projects/earth-temp-analysis.jpg",
+        "featured": false,
+        "displayOrder": 7,
+        "status": "Completed",
+        "year": "2024"
+    }
+]
